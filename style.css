@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1268px;
+    margin: auto;
+}
+
+
+.menu__title {
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 28px;
+  letter-spacing: 1.1px;
+  color: #222222;
+}
+
+.header__link {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 15px;
+  color: #222222;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.header__link--red {
+    font-weight: 400;
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #FD8558;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.menu__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background-image: url(./images\ \(4\).jpg);
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.card__title {
+  padding-top: 70px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 70px;
+  color:  #FFFFFF;
+}
+
+.card__link {
+  background-color: #FD8558;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 15px;
+  text-decoration: none;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card__link--button {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 15px;
+  text-decoration: none;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  border: 2px solid #FD8558;
+  text-align: center;
+}
+
+.card__links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.info {
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.info__title {
+    text-align: center;
+    font-family: 'Poppins';
+  font-size: 200px;
+  color:  #AAAAAA1A;
+}
+
+.info__text {
+    text-align: center;
+    color:  #FFFFFF;
+    font-family:'Poppins';
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+.info__personality {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.personality__title {
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.personality__text {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size:  13px;
+}
